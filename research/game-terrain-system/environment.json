@@ -1,0 +1,14 @@
+{
+	"objects": [
+		{ "model": "stone1", "data": { "size": { "x": 1, "y": 1, "z": 1 } }, "position": { "x": 0.5, "z": 0.5 } },
+		{ "model": "stone1", "data": { "size": { "x": 1, "y": 1, "z": 1 } }, "position": { "x": 1.5, "z": 1.5 } },
+		{ "model": "stone1", "data": { "size": { "x": 1, "y": 1, "z": 1 } }, "position": { "x": 2.5, "z": 2.5 } },
+		{ "model": "stone1", "data": { "size": { "x": 1, "y": 1, "z": 1 } }, "position": { "x": 3.5, "z": 3.5 } },
+		{ "model": "stone1", "data": { "size": { "x": 1, "y": 1, "z": 1 } }, "position": { "x": 4.5, "z": 4.5 } },
+		{ "model": "stone1", "data": { "size": { "x": 1, "y": 1, "z": 1 } }, "position": { "x": 5.5, "z": 5.5 } },
+		{ "model": "stone1", "data": { "size": { "x": 1, "y": 1, "z": 1 } }, "position": { "x": 6.5, "z": 6.5 } },
+		{ "model": "stone1", "data": { "size": { "x": 1, "y": 1, "z": 1 } }, "position": { "x": 7.5, "z": 7.5 } },
+		{ "model": "tree1", "position": { "x": 0.5, "z": 3.5 } },
+		{ "model": "building1", "position": { "x": -10, "z": -10 }, "rotation": { "y": 3.14 }, "scale": { "x": 0.01, "y": 0.01, "z": 0.01 } }
+	]
+}

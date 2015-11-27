@@ -1,0 +1,48 @@
+function update(model, object)
+{
+	speed = object.physic.velocity.move / object.states[ 'walk.forward' ].data.limit
+	if (speed < 0.5)
+	{
+		idleWeight = 1 - speed / 0.5
+		walkWeight = speed / 0.5
+		if (!model.idle.isPlaying) {
+			model.idle.play(0)
+		}
+		if (!model.walk.isPlaying) {
+			model.walk.play(0)
+		}
+
+		model.idle.weight = idleWeight
+		model.walk.weight = walkWeight
+
+		if (model.run.isPlaying) {
+			model.run.stop()
+			model.run.weight = 0
+			model.walk.timeScale = 1
+		}
+	}
+	else
+	{
+		walkWeight = 1 - (speed - 0.5) / 0.5
+		runWeight = (speed - 0.5) / 0.5
+		if (!model.run.isPlaying) {
+			progress = model.walk.currentTime / model.walk.data.length
+			model.run.play(progress * model.run.data.length)
+		}
+
+		model.walk.weight = walkWeight
+		model.run.weight = runWeight
+
+		walkToRunRatio = model.walk.data.length / model.run.data.length
+		runToWalkRatio = model.run.data.length / model.walk.data.length
+
+		model.walk.timeScale = walkWeight + walkToRunRatio * runWeight
+		model.run.timeScale = runWeight + runToWalkRatio * walkWeight
+
+		if (model.idle.isPlaying)
+		{
+			model.idle.stop()
+			model.idle.weight = 0
+		}
+	}
+}

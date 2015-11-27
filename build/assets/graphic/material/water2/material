@@ -1,0 +1,9 @@
+normal.wrapT = normal.wrapS = diffuse.wrapT = diffuse.wrapS = THREE.RepeatWrapping
+normal.repeat.set(5, 5)
+material = new THREE.MeshPhongMaterial({
+	map: diffuse,
+	normalMap: normal,
+	ambient: 0x0a0b08,
+	diffuse: 0x0a0b08,
+	specular: 0xf7c65f
+})

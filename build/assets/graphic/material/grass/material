@@ -1,0 +1,91 @@
+material = new THREE.ShaderMaterial( {
+
+	lights: true,
+	shading: THREE.FlatShading,
+	side: THREE.DoubleSide,
+	transparent: true,
+	alphaTest: 0.5,
+
+	attributes:
+	{
+		displacement: {	type: 'f', value: [] }
+	},
+
+	uniforms: THREE.UniformsUtils.merge( [ THREE.ShaderLib[ 'phong' ].uniforms, 		
+	{
+		time		: { type: "f", value: 0.0 },
+		amplitude	: { type: "f", value: 1.0 }
+	} ] ),
+
+	vertexShader: [
+
+		"#define PHONG",
+
+		"varying vec3 vViewPosition;",
+		"varying vec3 vNormal;",
+
+		"uniform float time;",
+		"uniform float amplitude;",
+
+		"attribute float displacement;",
+
+		THREE.ShaderChunk[ "map_pars_vertex" ],
+		THREE.ShaderChunk[ "lightmap_pars_vertex" ],
+		THREE.ShaderChunk[ "envmap_pars_vertex" ],
+		THREE.ShaderChunk[ "lights_phong_pars_vertex" ],
+		THREE.ShaderChunk[ "color_pars_vertex" ],
+		THREE.ShaderChunk[ "morphtarget_pars_vertex" ],
+		THREE.ShaderChunk[ "skinning_pars_vertex" ],
+		THREE.ShaderChunk[ "shadowmap_pars_vertex" ],
+		THREE.ShaderChunk[ "logdepthbuf_pars_vertex" ],
+
+		"void main() {",
+
+			THREE.ShaderChunk[ "map_vertex" ],
+			THREE.ShaderChunk[ "lightmap_vertex" ],
+			THREE.ShaderChunk[ "color_vertex" ],
+
+			THREE.ShaderChunk[ "morphnormal_vertex" ],
+			THREE.ShaderChunk[ "skinbase_vertex" ],
+			THREE.ShaderChunk[ "skinnormal_vertex" ],
+			THREE.ShaderChunk[ "defaultnormal_vertex" ],
+
+		"	vNormal = normalize( transformedNormal );",
+
+			THREE.ShaderChunk[ "morphtarget_vertex" ],
+			THREE.ShaderChunk[ "skinning_vertex" ],
+			THREE.ShaderChunk[ "default_vertex" ],
+			THREE.ShaderChunk[ "logdepthbuf_vertex" ],
+
+		"	vViewPosition = -mvPosition.xyz;",
+
+			THREE.ShaderChunk[ "worldpos_vertex" ],
+			THREE.ShaderChunk[ "envmap_vertex" ],
+			THREE.ShaderChunk[ "lights_phong_vertex" ],
+			THREE.ShaderChunk[ "shadowmap_vertex" ],
+		
+			"float px = position.x;",
+			"float pz = position.z;",
+
+			"if (position.y > 0.5) {",
+				"px += amplitude * cos( 6.28 * (time - displacement)) + uv.x * 0.5;",
+				"pz += amplitude * sin( 6.28 * (time - displacement));",
+			"}",
+			
+			"gl_Position = projectionMatrix * modelViewMatrix * vec4( px, position.y, pz, 1.0 );",
+
+		"}"
+
+	].join("\n"),
+
+	fragmentShader 	: THREE.ShaderLib[ 'phong' ].fragmentShader
+
+});
+
+
+material = new THREE.MeshBasicMaterial({
+	shading: THREE.FlatShading,
+	side: THREE.DoubleSide,
+	transparent: true,
+	alphaTest: 0.5
+})

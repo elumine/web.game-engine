@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>title</title>
+	<link rel="stylesheet" href="client/application.css">
+	<script src="libs/three.js"></script>
+	<script src='libs/three.EffectComposer.js'></script>
+	<script src="libs/three.stats.js"></script>
+	<script src="libs/three.ColladaLoader.js"></script>
+	<script src="libs/threex.rendererstats.js"></script>
+	<script src="libs/dat.gui.js"></script>
+	<script src="libs/jquery.js"></script>
+	<script src="libs/socket.io.js"></script>
+	<script src="libs/client.js"></script>
+	<script src="libs/shared.js"></script>
+	<script src="client/application.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="auth" class="screen">
+			<!--textarea(	id="name-textarea",       class="textarea auth_textarea", 	rows='1', 	placeholder="login") admin-->
+			<!--textarea(	id="password-textarea",   class="textarea auth_textarea", 	rows='1', 	placeholder="password") admin-->
+			<!--div(		id="login-button",        class="button auth_button") login-->
+			<!--div(		id="registration-button", class="button auth_button") registration-->
+		</div>
+		<div id="main" class="screen">
+			<div id="viewport3d-wrapper">
+				<img id='hud' src='assets/hud.png'>
+			</div>
+			<div id="logout-button" class="button main_button">logout</div>
+			<div id="enterWorld-button" class="button main_button">enter</div>
+			<div id="leaveWorld-button" class="button main_button">leave</div>
+			<div id="createCharacter-button" class="button main_button">create</div>
+		</div>
+	</div>
+</body>
+</html>

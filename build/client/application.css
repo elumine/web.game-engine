@@ -1,0 +1,141 @@
+* {
+  font-size: 1em;
+}
+
+body {
+  background-color: #000;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.textarea {
+  position: absolute;
+  resize: none;
+  border: 0;
+  padding: 0;
+  background-color: #111111;
+  text-align: center;
+  color: white;
+}
+
+.button {
+  position: absolute;
+  cursor: pointer;
+  background-color: #111111;
+  text-align: center;
+  color: white;
+}
+
+#wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 0%;
+  background-color: #5500aa;
+  z-index: -1;
+}
+
+#netgraph {
+  position: absolute;
+  width: 10%;
+  height: 5%;
+  right: 0%;
+  top: 0%;
+}
+
+#ping, #fps, #vertices, #faces {
+  position: static;
+  color: black;
+  color: #aaaaaa;
+  background-color: #111111;
+}
+
+.screen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 0%;
+  display: none;
+}
+
+#main {
+  display: block;
+}
+
+.auth_textarea {
+  width: 15%;
+  height: 5%;
+  left: 42.5%;
+}
+
+#name-textarea {
+  top: 35%;
+}
+
+#password-textarea {
+  top: 45%;
+}
+
+.auth_button {
+  width: 15%;
+  height: 5%;
+  left: 42.5%;
+}
+
+#login-button {
+  top: 55%;
+}
+
+#registration-button {
+  top: 65%;
+}
+
+.main_button {
+  width: 15%;
+  height: 5%;
+  bottom: 5%;
+  display: none;
+}
+
+#logout-button {
+  right: 5%;
+}
+
+#enterWorld-button {
+  left: 5%;
+}
+
+#leaveWorld-button {
+  left: 25%;
+}
+
+#createCharacter-button {
+  left: 45%;
+}
+
+#viewport3d-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 0%;
+  z-index: 1;
+}
+#hud {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 0%;
+  z-index: 2;
+  display: none;
+}
+
+#settings {
+  position: absolute;
+  left: 2.5%;
+  top: 2.5%;
+  display: none;
+}

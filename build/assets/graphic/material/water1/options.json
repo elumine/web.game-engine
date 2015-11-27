@@ -1,0 +1,9 @@
+{
+	"shader": false,
+	"map":
+	{
+		"diffuse": true,
+		"normal": true,
+		"env": true
+	}
+}

@@ -1,0 +1,16 @@
+{
+
+	"monument": { "classname": "GameObject", "physic": { "collider": "box" }, "graphic": { "model": "monument" }, "sound": {"id": "test", "distance":10 }, "position": { "x": 120, "z": 125 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 7,	"y": 10, "z": 4 } },
+
+	"knu1": { "classname": "GameObject", "physic": { "collider": "box" }, "graphic": { "model": "knu1" }, "sound": {"id": "test", "distance":10 }, "position": { "x": 60, "z": 115 }, "rotation": { "x": 0, "y": -1.2, "z": 0 }, "scale": { "x": 55,	"y": 50, "z": 55 } },
+	
+	"knu2": { "classname": "GameObject", "physic": { "collider": "box" }, "graphic": { "model": "knu1" }, "sound": {"id": "test", "distance":10 }, "position": { "x": 180, "z": 115 }, "rotation": { "x": 0, "y": 2.4, "z": 0 }, "scale": { "x": 55,	"y": 50, "z": 55 } },
+
+	"gossprom": { "classname": "GameObject", "physic": { "collider": "box" }, "graphic": { "model": "knu1" }, "sound": {"id": "test", "distance":10 }, "position": { "x": 120, "z": 70 }, "rotation": { "x": 0, "y": -2.5, "z": 0 }, "scale": { "x": 80,	"y": 50, "z": 80 } },
+
+	"building1": { "classname": "GameObject", "physic": { "collider": "box" }, "graphic": { "model": "building1" }, "sound": {"id": "test", "distance":10 }, "position": { "x": 168, "z": 170 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 20,	"y": 50, "z": 20 } },
+	"building2": { "classname": "GameObject", "physic": { "collider": "box" }, "graphic": { "model": "building1" }, "sound": {"id": "test", "distance":10 }, "position": { "x": 168, "z": 197 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 20,	"y": 50, "z": 20 } },
+	"building3": { "classname": "GameObject", "physic": { "collider": "box" }, "graphic": { "model": "building1" }, "sound": {"id": "test", "distance":10 }, "position": { "x": 196, "z": 170 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 20,	"y": 50, "z": 20 } },
+	"building4": { "classname": "GameObject", "physic": { "collider": "box" }, "graphic": { "model": "building1" }, "sound": {"id": "test", "distance":10 }, "position": { "x": 196, "z": 197 }, "rotation": { "x": 0, "y": 0, "z": 0 }, "scale": { "x": 20,	"y": 50, "z": 20 } }
+
+}

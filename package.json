@@ -1,0 +1,19 @@
+{
+  "name": "game-engine",
+  "version": "1.0.0",
+  "main": "build/server.js",
+  "dependencies": {
+    "compression": "^1.0.7",
+    "colors": "^0.6.2",
+    "express": "^4.10.7",
+    "eyes": "^0.1.8",
+    "cannon": "^0.5.0",
+    "pngjs": "^0.4.0",
+    "socket.io": "^1.3.4",
+    "three": "^0.70.0",
+    "fs.extra": "^1.2.1",
+    "orm": "^2.1.15",
+    "watch": "^0.10.0",
+    "mysql": "^2.3.2"
+  }
+}

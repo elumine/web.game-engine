@@ -1,0 +1,21 @@
+{
+	"children":
+	{
+		"up":
+		{
+			"type": { "json": true },
+			"geometryID": "tree3_up",
+			"materialID": "tree3_up",
+			"position": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -1.6, "y": 0, "z": 0}
+		},
+		"bottom":
+		{
+			"type": { "json": true },
+			"geometryID": "tree3_bottom",
+			"materialID": "tree3_bottom",
+			"position": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -1.6, "y": 0, "z": 0}
+		}
+	}
+}

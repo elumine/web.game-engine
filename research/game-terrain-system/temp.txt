@@ -1,0 +1,15 @@
+{
+	"objects": [
+		{ "model": "stone1", "data": { "size": { "x": 1, "y": 1, "z": 1 } }, "position": { "x": 0, "z": 0 } },
+		{ "model": "stone1", "data": { "size": { "x": 1, "y": 1, "z": 1 } }, "position": { "x": 1, "z": 1 } },
+		{ "model": "stone1", "data": { "size": { "x": 1, "y": 1, "z": 1 } }, "position": { "x": 2, "z": 2 } },
+		{ "model": "stone1", "data": { "size": { "x": 1, "y": 1, "z": 1 } }, "position": { "x": 3, "z": 3 } },
+		{ "model": "stone1", "data": { "size": { "x": 1, "y": 1, "z": 1 } }, "position": { "x": 4, "z": 4 } },
+		{ "model": "stone1", "data": { "size": { "x": 1, "y": 1, "z": 1 } }, "position": { "x": 5, "z": 5 } },
+		{ "model": "stone1", "data": { "size": { "x": 1, "y": 1, "z": 1 } }, "position": { "x": 6, "z": 6 } },
+		{ "model": "stone1", "data": { "size": { "x": 1, "y": 1, "z": 1 } }, "position": { "x": 7, "z": 7 } },
+		{ "model": "tree1", "position": { "x": 0, "z": 3 } },
+		{ "model": "tree1", "position": { "x": 0, "z": 6 } },
+		{ "model": "tree1", "position": { "x": 0, "z": 9 } }
+	]
+}

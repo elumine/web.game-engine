@@ -1,0 +1,12 @@
+{
+	"admin": {
+		"socketID": "x8_5-XgQeA8sLhMNAAAA",
+		"name": "admin",
+		"password": "admin",
+		"status": "offline",
+		"characters": {
+			"_active": "characterA",
+			"characterA": {}
+		}
+	}
+}

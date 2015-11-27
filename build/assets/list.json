@@ -1,0 +1,201 @@
+{
+	"client":
+	{
+		"scripts":
+		{
+			"passes":
+			{
+				"MaskPass" 		: "script",
+				"RenderPass" 	: "script",
+				"SavePass" 		: "script",
+				"TexturePass" 	: "script",
+				"ShaderPass" 	: "script"
+			},
+			"shaders":
+			{
+				"BleachBypassShader" 			: "script",
+				"BokehShader" 					: "script",
+				"BrightnessContrastShader" 		: "script",
+				"ColorCorrectionShader" 		: "script",
+				"ColorifyShader" 				: "script",
+				"ConvolutionShader" 			: "script",
+				"CopyShader" 					: "script",
+				"FXAAShader" 					: "script",
+				"GammaCorrection" 				: "script",
+				"GodRays2" 						: "script",
+				"HDR" 							: "script",
+				"HorizontalBlurShader" 			: "script",
+				"HueSaturationShader" 			: "script",
+				"LuminosityShader" 				: "script",
+				"MotionBlur" 					: "script",
+				"OcclusionShader" 				: "script",
+				"SSAOShader" 					: "script",
+				"Threshold" 					: "script",
+				"VerticalBlurShader" 			: "script",
+				"VignetteShader" 				: "script"
+			}
+		},
+		"gamedata":
+		{
+			"world" 			: "json",
+			"objects":
+			{
+				"static" 		: "json",
+				"environment"	: "json"
+			},
+			"terrain":
+			{
+				"heightmap" 	: "img",
+				"colorMap"		: "json"
+			},
+			"grass":
+			{
+				"grassmap" 		: "img"
+			}
+		},
+		"physic":
+		{
+			"collider": 
+			{
+				"terrain" 		: "json",
+				"tree" 			: "json"
+			}
+		},
+		"graphic":
+		{
+			"model": 
+			{
+				"default" 			: "model",
+				"monument" 			: "model",
+				"building1" 		: "model",
+				"knu1" 				: "model",
+				"boush1" 			: "model",
+				"boush2" 			: "model",
+				"cannabis" 			: "model",
+				"characterA"		: "model",
+				"plant_palm" 		: "model",
+				"plant_tropical" 	: "model",
+				"plant_tropical2" 	: "model",
+				"tree_palm" 		: "model",
+				"weed1" 			: "model",
+				"weed2" 			: "model",
+				"weed3" 			: "model",
+				"weed4" 			: "model",
+				"weed5" 			: "model",
+				"weed6" 			: "model",
+				"weed7" 			: "model",
+				"weed8" 			: "model"
+			},
+			"geometry": 
+			{
+				"default" 			: "geometry",
+				"monument" 			: "geometry",
+				"building1" 		: "geometry",
+				"knu1" 				: "geometry",
+				"boush1" 			: "geometry",
+				"boush2" 			: "geometry",
+				"cannabis" 			: "geometry",
+				"plant_palm" 		: "geometry",
+				"plant_tropical" 	: "geometry",
+				"plant_tropical2" 	: "geometry",
+				"tree_palm" 		: "geometry",
+				"weed1" 			: "geometry",
+				"weed2" 			: "geometry",
+				"weed3" 			: "geometry",
+				"weed4" 			: "geometry",
+				"weed5" 			: "geometry",
+				"weed6" 			: "geometry",
+				"weed7" 			: "geometry",
+				"weed8" 			: "geometry"
+			},
+			"material": 
+			{
+				"default" 			: "material",
+				"monument" 			: "material",
+				"building1" 		: "material",
+				"knu1" 				: "material",
+				"atmosphere" 		: "material",
+				"boush1" 			: "material",
+				"boush2" 			: "material",
+				"cannabis" 			: "material",
+				"grass" 			: "material",
+				"plant_palm" 		: "material",
+				"plant_tropical" 	: "material",
+				"plant_tropical2" 	: "material",
+				"terrain" 			: "material",
+				"tree_palm" 		: "material",
+				"water1" 			: "material",
+				"water2" 			: "material",
+				"weed1" 			: "material",
+				"weed2" 			: "material",
+				"weed3" 			: "material",
+				"weed4" 			: "material",
+				"weed6" 			: "material",
+				"weed8" 			: "material"
+			},
+			"texture":
+			{
+				"terrain":
+				{
+					"diffuse00" 	: "texture",
+					"diffuse01" 	: "texture",
+					"diffuse02" 	: "texture",
+					"diffuse03" 	: "texture",
+					"diffuse04" 	: "texture",
+					"diffuse05" 	: "texture",
+					"diffuse06" 	: "texture",
+					"diffuse07" 	: "texture",
+					"diffuse08" 	: "texture",
+					"diffuse09" 	: "texture",
+					"diffuse10" 	: "texture",
+					"diffuse11" 	: "texture",
+					"diffuse12" 	: "texture",
+					"diffuse13" 	: "texture",
+					"diffuse14" 	: "texture",
+					"diffuse15" 	: "texture",
+					"diffuse16" 	: "texture",
+					"diffuse17" 	: "texture",
+					"diffuse18" 	: "texture",
+					"diffuse19" 	: "texture"
+				},
+				"grass":
+				{
+					"diffuse0" 		: "texture",
+					"diffuse1" 		: "texture",
+					"diffuse2" 		: "texture",
+					"diffuse3" 		: "texture",
+					"normal0" 		: "texture",
+					"normal1" 		: "texture",
+					"normal2" 		: "texture",
+					"normal3" 		: "texture"
+				}
+			}
+		}
+	},
+	"server":
+	{
+		"accounts" 				: "json",
+		"gamedata":
+		{
+			"world" 			: "json",
+			"objects":
+			{
+				"static" 		: "json",
+				"dynamic" 		: "json",
+				"characters" 	: "json"
+			},
+			"terrain":
+			{
+				"heightmap" 	: "img"
+			}
+		},
+		"physic":
+		{
+			"collider": 
+			{
+				"terrain" 		: "json",
+				"tree" 			: "json"
+			}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"http": {
+		"use": {
+			"/client" 	: "client",
+			"/libs" 	: "libs",
+			"/assets" 	: "assets"
+		},
+		"index" 		: "client/application.html",
+		"port" 			: 3000
+	}
+}

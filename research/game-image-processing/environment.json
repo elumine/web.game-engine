@@ -1,0 +1,31 @@
+{
+	"objects": [
+		{ "model": "building1", "position": { "x": 45, "z": 40 }, "scale": { "x": 0.01, "y": 0.01, "z": 0.01 } },
+		{ "model": "monument", "position": { "x": 95, "z": 100 }, "scale": { "x": 0.01, "y": 0.01, "z": 0.01 }, "rotation": { "x": -1.6 } }
+	],
+	"objects_": [
+		{ "model": "stone1", "position": { "x": 2, "z": 2 } },
+		
+		{ "model": "tree1", "position": { "x": 5, "z": 5 }, "scale": { "x": 0.02, "y": 0.02, "z": 0.02 } },
+		{ "model": "boush1", "position": { "x": 5, "z": 10 }, "scale": { "x": 0.025, "y": 0.025, "z": 0.025 }, "rotation": { "x": -1.6 } },
+		{ "model": "boush2", "position": { "x": 5, "z": 15 }, "scale": { "x": 0.05, "y": 0.05, "z": 0.05 }, "rotation": { "x": -1.6 } },
+		{ "model": "cannabis", "position": { "x": 5, "z": 20 }, "scale": { "x": 0.05, "y": 0.05, "z": 0.05 }, "rotation": { "x": -1.6 } },
+		{ "model": "plant_palm", "position": { "x": 5, "z": 25 }, "scale": { "x": 0.05, "y": 0.05, "z": 0.05 }, "rotation": { "x": -1.6 } },
+		{ "model": "plant_tropical", "position": { "x": 5, "z": 30 }, "scale": { "x": 0.05, "y": 0.05, "z": 0.05 }, "rotation": { "x": -1.6 } },
+
+
+		{ "model": "tree2", "position": { "x": 10, "z": 5 } },
+		{ "model": "plant_tropical2", "position": { "x": 10, "z": 10 }, "scale": { "x": 0.04, "y": 0.04, "z": 0.04 }, "rotation": { "x": -1.6 } },
+		{ "model": "tree3", "position": { "x": 10, "z": 15 }, "scale": { "x": 0.04, "y": 0.04, "z": 0.04 } },
+		{ "model": "tree_palm", "position": { "x": 10, "z": 20 }, "scale": { "x": 0.04, "y": 0.04, "z": 0.04 }, "rotation": { "x": -1.6 } },
+
+		{ "model": "weed1", "position": { "x": 15, "z": 10 }, "scale": { "x": 0.04, "y": 0.04, "z": 0.04 }, "rotation": { "x": -1.6 } },
+		{ "model": "weed2", "position": { "x": 15, "z": 15 }, "scale": { "x": 0.04, "y": 0.04, "z": 0.04 }, "rotation": { "x": -1.6 } },
+		{ "model": "weed3", "position": { "x": 15, "z": 20 }, "scale": { "x": 0.04, "y": 0.04, "z": 0.04 }, "rotation": { "x": -1.6 } },
+		{ "model": "weed4", "position": { "x": 15, "z": 25 }, "scale": { "x": 0.04, "y": 0.04, "z": 0.04 }, "rotation": { "x": -1.6 } },
+		{ "model": "weed5", "position": { "x": 15, "z": 30 }, "scale": { "x": 0.04, "y": 0.04, "z": 0.04 }, "rotation": { "x": -1.6 } },
+		{ "model": "weed6", "position": { "x": 20, "z": 10 }, "scale": { "x": 0.04, "y": 0.04, "z": 0.04 }, "rotation": { "x": -1.6 } },
+		{ "model": "weed7", "position": { "x": 20, "z": 15 }, "scale": { "x": 0.04, "y": 0.04, "z": 0.04 }, "rotation": { "x": -1.6 } },
+		{ "model": "weed8", "position": { "x": 20, "z": 20 }, "scale": { "x": 0.04, "y": 0.04, "z": 0.04 }, "rotation": { "x": -1.6 } }	
+	]
+}

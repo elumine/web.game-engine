@@ -1,0 +1,5 @@
+material = new THREE.MeshBasicMaterial({
+	map 	: diffuse,
+	fog 	: false,
+	side 	: THREE.BackSide
+})
