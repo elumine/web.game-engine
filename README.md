@@ -1,8 +1,6 @@
 ###JavaScript Game Engine
 Game Engine client and server implementations using JavaScript.
-+ [Project Link](https://elumine.github.io/#/project/web-dev.game-engine)
 + [YouTube](https://youtu.be/5nzaHabcD8U)
-+ [LinedIn](https://www.linkedin.com/in/elumine)
 
 --
 ##### Features
